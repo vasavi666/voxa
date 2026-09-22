@@ -1,7 +1,7 @@
 // Translation service — connects to the Spring Boot backend API
 // React → Spring Boot → Translation Provider
 
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8080/api';
+const API_URL = import.meta.env.VITE_API_URL || 'https://voxa-backend-3ik6.onrender.com/api';
 
 /**
  * Translate text from one language to another using the Spring Boot backend.
